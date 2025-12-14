@@ -64,6 +64,15 @@
       text-align:left;
       align-self: flex-start;
     }
+    footer {
+      background: none;
+      padding: 2%;
+      text-align:center;
+      display:flex;
+      justify-content:center;
+      gap: 2%;
+      flex-wrap:wrap;
+    }
     .footerButton {
       background-color: #0B6162;
       color:white;
