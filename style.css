@@ -70,6 +70,11 @@
       flex-direction: column;
       gap:20px;
     }
+    footer {
+      background: none;
+      padding: 20px, 0px;
+      text-align:center;
+    }
     .footerButton {
       background-color: #0B6162;
       color:white;
