@@ -71,7 +71,6 @@
       display:flex;
       justify-content:center;
       gap: 2%;
-      flex-wrap:wrap;
     }
     .footerButton {
       background-color: #0B6162;
