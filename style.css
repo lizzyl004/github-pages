@@ -76,6 +76,7 @@
       margin: 20px;
       font-size: 25px;
       border-radius: 16px;
+      flex-wrap:wrap;
     }
     .footerButton:hover {
       background-color: #E75480;
