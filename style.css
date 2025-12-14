@@ -46,7 +46,6 @@
       padding:50px;
       width:90%;
     }
-    
     .intro {
       display:flex;
       flex-direction:row;
@@ -77,6 +76,9 @@
       margin: 2%;
       font-size: 16px;
       border-radius: 8px;
+    }
+    .footerbutton:hover {
+      background-color: #E75480;
     }
     @media (max-width:700px) {
     .intro {
