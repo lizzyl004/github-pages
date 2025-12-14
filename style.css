@@ -83,7 +83,7 @@
     .profilePic {
       width:45%;
       height:auto;
-      transition: transform 0.5s ease-in-out;
+      transition: transform 1.0s ease-in-out;
     }
     .profilePic:hover {
       transform:rotate(360deg);
