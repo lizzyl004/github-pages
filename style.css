@@ -68,7 +68,6 @@
       display:flex;
       justify-content:center;
       gap: 10px;
-      flex-wrap:wrap;
     }
     .footerButton {
       background-color: #0B6162;
