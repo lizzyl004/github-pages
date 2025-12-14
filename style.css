@@ -80,11 +80,6 @@
     .footerButton:hover {
       background-color: #E75480;
     }
-    @media (max-width:700px) {
-    .intro {
-      flex-direction: column;
-      gap:20px;
-    }
     .profilePic {
       width:80%;
       height:auto;
@@ -92,6 +87,11 @@
     }
     .profilePic:hover {
       transform:rotate(360deg);
+    }
+    @media (max-width:700px) {
+    .intro {
+      flex-direction: column;
+      gap:20px;
     }
     h1,h2 {
       width:90%
