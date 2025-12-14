@@ -1,3 +1,4 @@
-document.addEventListener("click", button(){
+document.addEventListener("DOMContentLoaded", function({
+  var buttons = document.querySelectAll(".footerButton");
   
 });
