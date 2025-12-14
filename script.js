@@ -5,5 +5,5 @@ document.addEventListener("DOMContentLoaded", function(){
       var link = button.getAttribute("data-link")
       window.location.href = link;
     });
-  }
+  });
 });
