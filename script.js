@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", function({
-  var buttons = document.querySelectAll(".footerButton");
-  
+  var buttons = document.getElementByClassName(".footerButton");
+  buttons.forEach(function (button) {
+    button.addEventListener("click", function() {
+      var link = button.getAttribute("data-link")
+      window.location.href = link;
+    });
+  });
 });
